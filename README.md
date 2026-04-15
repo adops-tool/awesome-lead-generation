@@ -209,4 +209,4 @@ The goal of this repository is to document the **Modern Growth Stack**, moving a
 
 ## Contributing
 
-Contributions are welcome\! Please read the [contribution guidelines](https://www.google.com/search?q=CONTRIBUTING.md) first.
+Contributions are welcome\! Please read the [contribution guidelines](https://github.com/adops-tool/awesome-lead-generation/blob/main/CONTRIBUTING.md) first.
