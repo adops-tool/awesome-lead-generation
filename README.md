@@ -10,16 +10,16 @@ The goal of this repository is to document the **Modern Growth Stack**, moving a
 
 ## Contents
 
-  - [Social Listening & Intent Analysis](https://www.google.com/search?q=%23social-listening--intent-analysis)
-  - [Data Scraping & Enrichment](https://www.google.com/search?q=%23data-scraping--enrichment)
-      - [Email Discovery & Verification](https://www.google.com/search?q=%23email-discovery--verification)
-      - [LinkedIn & People Data](https://www.google.com/search?q=%23linkedin--people-data)
-      - [Web, Maps & Enrichment Platforms](https://www.google.com/search?q=%23web-maps--enrichment-platforms)
-  - [Cold Outreach & Email AI](https://www.google.com/search?q=%23cold-outreach--email-ai)
-  - [Marketing Automation & CRM](https://www.google.com/search?q=%23marketing-automation--crm)
-  - [Voice Agents & Calling](https://www.google.com/search?q=%23voice-agents--calling)
-  - [AI Copywriting & Personalization](https://www.google.com/search?q=%23ai-copywriting--personalization)
-  - [Contributing](https://www.google.com/search?q=%23contributing)
+  - [Social Listening & Intent Analysis](#social-listening--intent-analysis)
+  - [Data Scraping & Enrichment](#data-scraping--enrichment)
+      - [Email Discovery & Verification](#email-discovery--verification)
+      - [LinkedIn & People Data](#linkedin--people-data)
+      - [Web, Maps & Enrichment Platforms](#web-maps--enrichment-platforms)
+  - [Cold Outreach & Email AI](#cold-outreach--email-ai)
+  - [Marketing Automation & CRM](#marketing-automation--crm)
+  - [Voice Agents & Calling](h#voice-agents--calling)
+  - [AI Copywriting & Personalization](#ai-copywriting--personalization)
+  - [Contributing](#contributing)
 
 -----
 
