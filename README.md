@@ -63,6 +63,8 @@ The goal of this repository is to document the **Modern Growth Stack**, moving a
 
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[MailChecker](https://github.com/FGRibreau/mailchecker) - Cross-language library for detecting disposable and throwaway email addresses, covering 55,000+ fake providers.
 
+![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png)[FindMeMail](https://findmemail.io) - Plain-English search across 32k+ companies for verified founder & decision-maker emails. 17k+ SMTP-verified contacts across 46 countries; free tier (50 credits) and $200 one-time lifetime.
+
 ### LinkedIn & People Data
 
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[linkedin-mcp-server](https://github.com/stickerdaniel/linkedin-mcp-server) - Open-source MCP server that gives Claude and other AI assistants access to LinkedIn profiles, companies, jobs, and direct messages.
