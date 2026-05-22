@@ -159,6 +159,8 @@ The goal of this repository is to document the **Modern Growth Stack**, moving a
 
 *Tools and platforms for building automation workflows, managing campaigns, and tracking leads.*
 
+![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[Beton Inspector](https://github.com/getbeton/inspector) - Open-source revenue intelligence that scores accounts from PostHog product-usage data and CRM signals, then routes the warmest leads to sales. Self-hostable; an open-source alternative to Pocus and Common Room.
+
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[caffeinate](https://github.com/joshmn/caffeinate) - Rails engine for building drip campaigns and scheduled email sequences inside a Ruby on Rails app, with timezone-aware delivery, business-day filtering, and a lightweight web UI.
 
 ![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [Chatwoot](https://www.google.com/search?q=https://github.com/chatwoot/chatwoot) - Open-source customer engagement suite to manage multi-channel conversations and capture leads.
