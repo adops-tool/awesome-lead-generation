@@ -49,6 +49,8 @@ The goal of this repository is to document the **Modern Growth Stack**, moving a
 
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[URS](https://github.com/JosephLai241/URS) - Universal Reddit Scraper for archiving subreddits, comment threads, and redditor data via the PRAW API.
 
+![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [Xquik](https://xquik.com/en) - X automation platform with REST API, MCP server, webhooks, and public X data tools.
+
 <img src="https://github.com/adops-tool/awesome-lead-generation/blob/main/image/line-svg-3D444D-alg.svg" /> <!-- -SVG-Line- -->
 
 ## Data Scraping & Enrichment
