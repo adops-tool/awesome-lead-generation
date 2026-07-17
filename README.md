@@ -49,7 +49,9 @@ The goal of this repository is to document the **Modern Growth Stack**, moving a
 
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[URS](https://github.com/JosephLai241/URS) - Universal Reddit Scraper for archiving subreddits, comment threads, and redditor data via the PRAW API.
 
-![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [Xquik](https://xquik.com/en) - X automation platform with REST API, MCP server, webhooks, and public X data tools.
+![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[Xquik](https://github.com/Xquik-dev/x-twitter-scraper) - X data platform with a REST API, Streamable HTTP MCP, webhooks, SDKs, and public X data tools.
+
+Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp.
 
 <img src="https://github.com/adops-tool/awesome-lead-generation/blob/main/image/line-svg-3D444D-alg.svg" /> <!-- -SVG-Line- -->
 
@@ -89,7 +91,7 @@ The goal of this repository is to document the **Modern Growth Stack**, moving a
 
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[business-leads-ai-automation](https://github.com/asiifdev/business-leads-ai-automation) - Open-source Google Maps scraper paired with AI-generated email and WhatsApp outreach templates for SME prospecting.
 
-![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[changedetection.io](https://github.com/dgtlmoon/changedetection.io) - Self-hosted website change-monitoring tool that fires alerts via Slack, Discord, email, and 80+ other channels when tracked pages update — useful for tracking competitor pricing, job postings, and intent signals.
+![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[changedetection.io](https://github.com/dgtlmoon/changedetection.io) - Self-hosted website change-monitoring tool that fires alerts via Slack, Discord, email, and 80+ other channels when tracked pages update - useful for tracking competitor pricing, job postings, and intent signals.
 
 ![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [Clay](https://clay.com) - Data enrichment spreadsheet that pulls from 50+ providers and uses AI to research, score, and build lead lists automatically.
 
@@ -127,7 +129,7 @@ The goal of this repository is to document the **Modern Growth Stack**, moving a
 
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[WaterCrawl](https://github.com/watercrawl/WaterCrawl) - Self-hostable crawler that converts web pages into structured, LLM-ready Markdown or JSON output.
 
-![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [WebScraping.AI](https://www.google.com/search?q=https://github.com/webscraping-ai/webscraping-ai-python) - Python client for API providing Chrome JS rendering and HTML parsing.
+![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[WebScraping.AI](https://github.com/webscraping-ai/webscraping-ai-python) - Python client for API providing Chrome JS rendering and HTML parsing.
 
 <img src="https://github.com/adops-tool/awesome-lead-generation/blob/main/image/line-svg-3D444D-alg.svg" /> <!-- -SVG-Line- -->
 
@@ -147,7 +149,7 @@ The goal of this repository is to document the **Modern Growth Stack**, moving a
 
 ![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [Lemlist](https://lemlist.com) - Outreach platform that supports personalized images, videos, and multi-channel sequences in cold email campaigns.
 
-![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [Postal](https://www.google.com/search?q=https://github.com/postalserver/postal) - Fully featured open source mail delivery platform for incoming and outgoing email.
+![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[Postal](https://github.com/postalserver/postal) - Fully featured open source mail delivery platform for incoming and outgoing email.
 
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[sales-outreach-automation-langgraph](https://github.com/kaymen99/sales-outreach-automation-langgraph) - LangGraph-based AI agent pipeline that automates lead research, qualification, and personalized messaging with HubSpot, Airtable, and Google Sheets integrations.
 
@@ -163,21 +165,21 @@ The goal of this repository is to document the **Modern Growth Stack**, moving a
 
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[caffeinate](https://github.com/joshmn/caffeinate) - Rails engine for building drip campaigns and scheduled email sequences inside a Ruby on Rails app, with timezone-aware delivery, business-day filtering, and a lightweight web UI.
 
-![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [Chatwoot](https://www.google.com/search?q=https://github.com/chatwoot/chatwoot) - Open-source customer engagement suite to manage multi-channel conversations and capture leads.
+![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[Chatwoot](https://github.com/chatwoot/chatwoot) - Open-source customer engagement suite to manage multi-channel conversations and capture leads.
 
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[django-crm](https://github.com/DjangoCRM/django-crm) - Self-hosted Django/Python CRM covering lead and deal tracking, task management, built-in SMTP/IMAP email client, campaign automation, and analytics across 22+ languages.
 
-![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [Mautic](https://www.google.com/search?q=https://github.com/mautic/mautic) - Open-source marketing automation project to manage campaigns, lead generation, and email tracking.
+![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[Mautic](https://github.com/mautic/mautic) - Open-source marketing automation project to manage campaigns, lead generation, and email tracking.
 
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[MultiPost-Extension](https://github.com/leaperone/MultiPost-Extension) - Browser extension and RESTful API for one-click content publishing to 10+ social platforms simultaneously (TikTok, YouTube, Zhihu, Weibo, Xiaohongshu, and others) without requiring platform API keys.
 
-![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [n8n](https://www.google.com/search?q=https://github.com/n8n-io/n8n) - Workflow automation platform connecting APIs and services to build marketing and lead generation pipelines.
+![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[n8n](https://github.com/n8n-io/n8n) - Workflow automation platform connecting APIs and services to build marketing and lead generation pipelines.
 
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[rss2newsletter](https://github.com/ElliotKillick/rss2newsletter) - Python tool that converts any RSS/Atom feed into automated email newsletter campaigns delivered through listmonk and Amazon SES, with OpenGraph image extraction and customizable HTML templates.
 
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[sendportal](https://github.com/mettle/sendportal) - Self-hosted Laravel email marketing platform supporting campaign management, subscriber lists, and delivery via Amazon SES, Postmark, Sendgrid, Mailgun, and Mailjet.
 
-![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [Twenty](https://www.google.com/search?q=https://github.com/twentyhq/twenty) - Open-source CRM designed to track leads, customer interactions, and sales pipelines efficiently.
+![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[Twenty](https://github.com/twentyhq/twenty) - Open-source CRM designed to track leads, customer interactions, and sales pipelines efficiently.
 
 <img src="https://github.com/adops-tool/awesome-lead-generation/blob/main/image/line-svg-3D444D-alg.svg" /> <!-- -SVG-Line- -->
 

@@ -33,7 +33,8 @@ To add a new tool to the list, please follow these steps:
 
    ```markdown
    - [Tool Name](https://example.com) - Short, objective description of what it does.
-   
+   ```
+
 5. **Create a Pull Request:** Submit your PR with a clear and descriptive title using the following format:
    `Add [Tool Name]`
 
