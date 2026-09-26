@@ -151,6 +151,8 @@ The goal of this repository is to document the **Modern Growth Stack**, moving a
 
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[sales-outreach-automation-langgraph](https://github.com/kaymen99/sales-outreach-automation-langgraph) - LangGraph-based AI agent pipeline that automates lead research, qualification, and personalized messaging with HubSpot, Airtable, and Google Sheets integrations.
 
+![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [SalesLabel](https://sales-label.com) - White-label outbound sales infrastructure for B2B agencies. Used by 100+ agencies to launch reseller offers; features unlimited sending inboxes, AI personalization, and built-in deliverability infrastructure.
+
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[signal-prospecting-kit](https://github.com/julienamorgan/signal-prospecting-kit) - Six-skill Claude Code toolkit that detects buying signals for a defined ICP, identifies prospect companies exhibiting those signals, and generates personalized cold email and LinkedIn outreach drafts.
 
 ![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [Smartlead](https://smartlead.ai) - Cold email infrastructure focused on deliverability, multi-inbox rotation, and API-first workflow automation.
