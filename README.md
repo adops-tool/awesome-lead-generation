@@ -67,6 +67,8 @@ The goal of this repository is to document the **Modern Growth Stack**, moving a
 
 ### LinkedIn & People Data
 
+![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [Datacircle](https://datacircle.dev) - Query your favorite B2B data APIs through us. Same request, same price, no markup. Use it from Claude, ChatGPT or Cursor: add api.datacircle.dev/mcp as an MCP server.
+
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[linkedin-mcp-server](https://github.com/stickerdaniel/linkedin-mcp-server) - Open-source MCP server that gives Claude and other AI assistants access to LinkedIn profiles, companies, jobs, and direct messages.
 
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[LinkedInDumper](https://github.com/l4rm4nd/LinkedInDumper) - Python script to extract a structured employee list from any LinkedIn company page.
