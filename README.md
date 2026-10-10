@@ -171,6 +171,8 @@ The goal of this repository is to document the **Modern Growth Stack**, moving a
 
 ![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [Chatwoot](https://www.google.com/search?q=https://github.com/chatwoot/chatwoot) - Open-source customer engagement suite to manage multi-channel conversations and capture leads.
 
+![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [Dialbrew](https://dialbrew.com) - Platform for SDR agencies covering per-client lead lists, browser calling with recording and transcription, meeting bookings and HubSpot/Pipedrive push.
+
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[django-crm](https://github.com/DjangoCRM/django-crm) - Self-hosted Django/Python CRM covering lead and deal tracking, task management, built-in SMTP/IMAP email client, campaign automation, and analytics across 22+ languages.
 
 ![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [Mautic](https://www.google.com/search?q=https://github.com/mautic/mautic) - Open-source marketing automation project to manage campaigns, lead generation, and email tracking.
