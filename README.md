@@ -109,6 +109,8 @@ The goal of this repository is to document the **Modern Growth Stack**, moving a
 
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[kaymen99/ai-web-scraper](https://github.com/kaymen99/ai-web-scraper) - LLM-powered web scraper built on Crawl4AI that extracts structured lead data from arbitrary website URLs.
 
+![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [looot](https://looot.ai) - Data API and remote MCP server with one key and prepaid balance for about 2,500 endpoints: work email, phone, company enrichment, Google SERP, and web page reading.
+
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[maxun](https://github.com/getmaxun/maxun) - Open-source no-code platform that converts websites into structured data APIs using a recorder mode or plain-language descriptions, with scheduling and Google Sheets export.
 
 ![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [PhantomBuster](https://phantombuster.com) - Cloud automation tool for scraping data and performing sequences of actions on LinkedIn, Instagram, and Google Maps.
