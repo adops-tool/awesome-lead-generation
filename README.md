@@ -71,6 +71,8 @@ The goal of this repository is to document the **Modern Growth Stack**, moving a
 
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[LinkedInDumper](https://github.com/l4rm4nd/LinkedInDumper) - Python script to extract a structured employee list from any LinkedIn company page.
 
+![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png)[LinkMCP](https://app.linkmcp.io) - Hosted MCP server that connects an AI agent to your own LinkedIn account, with 35 tools for profile and company lookup, people and Sales Navigator search, messages, posts, and email and phone finding.
+
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[OpenOutreach](https://github.com/eracle/OpenOutreach) - AI-powered LinkedIn automation tool that finds leads based on a user-defined product description and target market.
 
 ![github](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_R.png)[StaffSpy](https://github.com/cullenwatson/StaffSpy) - Python library to retrieve LinkedIn employee records including work history, education, skills, and contact information.
