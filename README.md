@@ -133,6 +133,8 @@ The goal of this repository is to document the **Modern Growth Stack**, moving a
 
 ![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [WebScraping.AI](https://www.google.com/search?q=https://github.com/webscraping-ai/webscraping-ai-python) - Python client for API providing Chrome JS rendering and HTML parsing.
 
+![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [Website Contact Extractor](https://apify.com/pennydata/website-contact-extractor) - Apify actor that finds the contact page and contact form of each website in a list and returns its emails, phones and social links as structured data.
+
 <img src="https://github.com/adops-tool/awesome-lead-generation/blob/main/image/line-svg-3D444D-alg.svg" /> <!-- -SVG-Line- -->
 
 ## Cold Outreach & Email AI
