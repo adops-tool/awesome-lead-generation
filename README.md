@@ -85,6 +85,8 @@ The goal of this repository is to document the **Modern Growth Stack**, moving a
 
 ![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [Apollo](https://apollo.io) - B2B contact database of 275M+ records with built-in email finding, sequencing, and CRM enrichment features.
 
+- [BatchData](https://batchdata.io) - U.S. real estate data API with property search, owner skip tracing and phone verification, plus a hosted MCP server for AI agents.
+
 ![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [Bright Data](https://brightdata.com) - Web data platform for large-scale structured data extraction with a global proxy network and dataset delivery API.
 
 ![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [Browse AI](https://browse.ai) - No-code tool to extract and monitor data from any website by training a robot on the target page.
