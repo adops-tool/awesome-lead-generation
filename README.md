@@ -39,6 +39,8 @@ The goal of this repository is to document the **Modern Growth Stack**, moving a
 
 ![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [Leado](https://leado.co) - AI-powered Reddit lead generation tool that monitors subreddits for high-intent leads and writes personalized replies automatically.
 
+![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [OpenSparta](https://opensparta.com/en) - Telegram marketing workspace with an AI-powered Lead Radar that monitors selected communities for buying requests and ranks matches with original-message evidence.
+
 ![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [Scweet](https://github.com/Altimis/Scweet) - Python library for scraping tweets, profiles, followers, and following lists from Twitter/X without an API key.
 
 ![web](https://github.com/adops-tool/awesome-lead-generation/blob/main/image/alg_I.png) [Syften](https://syften.com) - Keyword monitoring across Slack communities, Discourse forums, Reddit, and other platforms in real time.
