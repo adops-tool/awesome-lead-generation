@@ -29,10 +29,15 @@ To add a new tool to the list, please follow these steps:
 1. **Star the repository:** Show your support and help the community grow.
 2. **Locate the file:** Navigate to the `README.md` file in the main branch of this repository.
 3. **Edit the document:** Click the "Edit" (pencil) icon to begin making your changes.
-4. **Format your entry:** Add your link to the appropriate category using the exact Markdown syntax below:
+4. **Format your entry:** Add your link to the appropriate category using the exact Markdown syntax below. Use the `github` icon when the primary link is a GitHub repository and the `web` icon otherwise. Always link directly to the tool's site or repository — never through search engines or redirect services:
 
    ```markdown
-   - [Tool Name](https://example.com) - Short, objective description of what it does.
+   ![github](image/alg_R.png) [Tool Name](https://github.com/org/repo) - Short, objective description of what it does.
+
+   ![web](image/alg_I.png) [Tool Name](https://example.com) - Short, objective description of what it does.
+   ```
+
+   Keep entries in strict alphabetical order (case-insensitive) within their subsection and do not include pricing or promotional claims in descriptions.
    
 5. **Create a Pull Request:** Submit your PR with a clear and descriptive title using the following format:
    `Add [Tool Name]`
