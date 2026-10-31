@@ -2,7 +2,7 @@
 
 <img src="image/line-svg-3D444D-alg.svg" /> <!-- -SVG-Line- -->
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/adops-tool/awesome-lead-generation/pulls)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 
 A curated list of the best AI-powered tools for Lead Generation, Social Listening, Data Enrichment, and Automated Outreach.
 
