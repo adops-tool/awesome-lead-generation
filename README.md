@@ -162,6 +162,8 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ![web](image/alg_I.png) [PhantomBuster](https://phantombuster.com) - Cloud automation tool for scraping data and running sequences of actions on LinkedIn, Instagram, and Google Maps.
 
+![web](image/alg_I.png) [twtData](https://twtdata.com) - Exports the followers or following of public X (Twitter) accounts, plus tweets, lists and Spaces, to CSV for prospect lists and audience research.
+
 ![web](image/alg_I.png) [Zyte](https://www.zyte.com) - Scraping APIs and the Scrapy Cloud platform for production-grade web data extraction.
 
 ### Search, Maps, Reviews & Contacts
