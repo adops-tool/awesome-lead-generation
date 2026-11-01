@@ -4,10 +4,13 @@ from __future__ import annotations
 
 import contextlib
 import io
+import json
 import os
 import sys
+import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -76,12 +79,23 @@ class CliTests(unittest.TestCase):
                 os.environ["PR_TITLE"] = previous
 
     def test_missing_title_returns_two(self):
-        previous = os.environ.pop("PR_TITLE", None)
-        try:
+        # CI sets GITHUB_EVENT_PATH, so clear every source, not just PR_TITLE.
+        with mock.patch.dict(os.environ, {}, clear=False):
+            for variable in ("PR_TITLE", "GITHUB_PR_TITLE", "GITHUB_EVENT_PATH"):
+                os.environ.pop(variable, None)
             self.assertEqual(silent_run([]), 2)
-        finally:
-            if previous is not None:
-                os.environ["PR_TITLE"] = previous
+
+    def test_reads_title_from_the_actions_event_payload(self):
+        payload = Path(tempfile.mkdtemp()) / "event.json"
+        payload.write_text(json.dumps({"pull_request": {"title": "Add Clay"}}), encoding="utf-8")
+        with mock.patch.dict(os.environ, {"GITHUB_EVENT_PATH": str(payload)}, clear=False):
+            os.environ.pop("PR_TITLE", None)
+            os.environ.pop("GITHUB_PR_TITLE", None)
+            self.assertEqual(silent_run([]), 0)
+
+    def test_explicit_title_wins_over_the_environment(self):
+        with mock.patch.dict(os.environ, {"PR_TITLE": "nope"}, clear=False):
+            self.assertEqual(silent_run(["--title", "Add Clay"]), 0)
 
 
 if __name__ == "__main__":
