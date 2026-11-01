@@ -1,0 +1,51 @@
+name: Code of Conduct report
+description: Report unacceptable behavior in this community (read the note below first)
+title: "Code of Conduct report"
+labels: ["code of conduct"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > **Please do not include sensitive personal information in this form.**
+        >
+        > Issues are public. If your report involves private details, harassment, or
+        > anything a third party should not read, contact a maintainer privately first
+        > (see the enforcement section of the
+        > [Code of Conduct](../../blob/main/CODE_OF_CONDUCT.md)) and only open this
+        > issue if you are comfortable doing so.
+
+        All reports are handled according to the
+        [Contributor Covenant 2.1](../../blob/main/CODE_OF_CONDUCT.md).
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where did it happen?
+      options:
+        - Issue or pull request comments
+        - Code review discussion
+        - Discussions / wiki
+        - Direct messages related to this project
+        - Another community space
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: A short factual description of the behavior. Links to the comments help.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Who was affected and how? Keep this focused on behavior, not people.
+    validations:
+      required: false
+  - type: input
+    id: contact
+    attributes:
+      label: How should a maintainer reach you?
+      description: Optional if you are fine with follow-up in this issue.
+    validations:
+      required: false
