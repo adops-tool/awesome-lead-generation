@@ -2,7 +2,7 @@
 
 <img src="image/line-svg-3D444D-alg.svg" /> <!-- -SVG-Line- -->
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md) [![CI](https://img.shields.io/github/actions/workflow/status/adops-tool/awesome-lead-generation/ci.yml?branch=main&label=CI)](https://github.com/adops-tool/awesome-lead-generation/actions) [![Link check](https://img.shields.io/github/actions/workflow/status/adops-tool/awesome-lead-generation/link-check.yml?branch=main&label=link%20check)](https://github.com/adops-tool/awesome-lead-generation/actions)
 
 A curated list of the best AI-powered tools for Lead Generation, Social Listening, Data Enrichment, and Automated Outreach.
 
@@ -324,7 +324,7 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ![web](image/alg_I.png) [Expandi](https://expandi.io) - Safety-focused cloud LinkedIn automation with multichannel sequences and personalized media.
 
-![web](image/alg_I.png) [HeyReach](https://heyreach.com) - Multi-account LinkedIn outreach management built for agencies, with sender rotation and white-label reports.
+![web](image/alg_I.png) [HeyReach](https://heyreach.io) - Multi-account LinkedIn outreach management built for agencies, with sender rotation and white-label reports.
 
 ![github](image/alg_R.png) [OpenOutreach](https://github.com/eracle/OpenOutreach) - Open-source AI-powered LinkedIn automation tool that finds leads based on a user-defined product description and target market.
 
@@ -461,3 +461,7 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 ## Contributing
 
 Contributions are welcome\! Please read the [contribution guidelines](CONTRIBUTING.md) first.
+
+Every pull request is checked automatically: entries must follow the list format, stay in alphabetical order, and keep every link alive. Run `make check` before pushing — see [the automated checks](CONTRIBUTING.md#automated-checks) for the exact commands.
+
+By participating in this project you agree to abide by our [Code of Conduct](CODE_OF_CONDUCT.md).

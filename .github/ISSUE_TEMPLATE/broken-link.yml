@@ -1,0 +1,53 @@
+name: Broken link
+description: Report a dead, moved or hijacked link in the list
+title: "Fix link for "
+labels: ["broken link"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The weekly [link check](../../actions/workflows/link-check.yml) catches most of
+        these automatically — if it opened this issue for you, the URL below is already
+        in the report.
+  - type: input
+    id: tool
+    attributes:
+      label: Tool name
+      description: The name shown in the list.
+      placeholder: Clay
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Current URL in the list
+      placeholder: https://clay.com
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What is wrong?
+      options:
+        - Returns a 404 / the page is gone
+        - The site moved to a new domain
+        - The link now redirects to something unrelated (domain squatted)
+        - The tool was acquired or shut down
+        - The tool no longer works with the AI features described
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: replacement
+    attributes:
+      label: Working replacement URL (if you know one)
+      placeholder: https://new-domain.com
+    validations:
+      required: false
+  - type: textarea
+    id: details
+    attributes:
+      label: Additional context
+      description: Screenshots, HTTP status codes, or where the tool should be listed instead.
+    validations:
+      required: false

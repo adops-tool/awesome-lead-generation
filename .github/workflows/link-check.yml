@@ -1,0 +1,73 @@
+name: Link check
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - "**.md"
+      - ".github/link-check-allowlist.txt"
+      - "scripts/check_links.py"
+  schedule:
+    # Every Monday at 04:00 UTC: catch sites that went away since the last run.
+    - cron: "0 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: link-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  links:
+    name: Dead links
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          # Full history so --changed-only can diff against the PR base commit.
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+
+      - name: Check links
+        id: check
+        continue-on-error: true
+        env:
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          set -euo pipefail
+          args=(
+            README.md CONTRIBUTING.md CODE_OF_CONDUCT.md
+            --format markdown
+            --output link-report.md
+            --github-annotations
+            --github-summary
+          )
+          if [ "${GITHUB_EVENT_NAME}" = "pull_request" ] && [ -n "${PR_BASE_SHA}" ]; then
+            # Pull requests only check the links they add or edit, so pre-existing
+            # rot never blocks an unrelated contribution.
+            args+=(--changed-only --base "${PR_BASE_SHA}")
+          fi
+          python3 scripts/check_links.py "${args[@]}"
+
+      - name: Upload the report
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: link-report
+          path: link-report.md
+          if-no-files-found: ignore
+          retention-days: 30
+
+      - name: Fail when links are broken
+        if: steps.check.outcome == 'failure'
+        run: |
+          echo "::error::At least one link is dead. See the job summary or the link-report artifact."
+          exit 1

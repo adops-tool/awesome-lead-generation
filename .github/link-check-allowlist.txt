@@ -1,0 +1,24 @@
+# Hosts that answer automated requests with bot protection instead of the real
+# status code (HTTP 403/429/999, login walls, or a TLS reset). Links on these
+# hosts are reported as "allowlisted" and never fail the build.
+#
+# Format:  <host>[/<path prefix>]   # reason
+# A bare host also covers its subdomains (linkedin.com covers www.linkedin.com).
+# Keep this list short: every entry is a link nobody is checking any more.
+# Review it whenever you bump the checker version.
+
+linkedin.com          # HTTP 999 / login wall for non-browser clients
+g2.com                # Cloudflare challenge on automated requests
+crunchbase.com        # Cloudflare challenge on automated requests
+producthunt.com       # Cloudflare challenge on automated requests
+reddit.com            # HTTP 403/429 for datacenter IP ranges
+x.com                 # login wall, HTTP 200 with an empty shell
+twitter.com           # login wall, HTTP 200 with an empty shell
+instagram.com         # login wall
+facebook.com          # login wall
+tiktok.com            # Cloudflare challenge
+quora.com             # Cloudflare challenge
+medium.com            # Cloudflare challenge
+glassdoor.com         # HTTP 403 for datacenter IP ranges
+wellfound.com         # Cloudflare challenge
+youtube.com           # intermittent HTTP 429 from shared CI runners

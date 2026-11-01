@@ -1,0 +1,49 @@
+name: Suggest a tool
+description: Propose a tool for the list before opening a pull request
+title: "Add "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Prefer a pull request? Read [CONTRIBUTING.md](../../blob/main/CONTRIBUTING.md)
+        and run `make check` first — it validates the format, ordering and links.
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Direct URL
+      description: The product site or GitHub repository — no affiliate or tracking links.
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Section
+      description: Which existing section does it belong to? (e.g. "Cold Email & Outreach → Sending & Sequencing Platforms")
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Proposed one-sentence description
+      description: Factual, objective, ends with a period. No superlatives or pricing.
+      placeholder: Sends cold email sequences from multiple inboxes with built-in deliverability warm-up.
+    validations:
+      required: true
+  - type: checkboxes
+    id: criteria
+    attributes:
+      label: Criteria
+      options:
+        - label: The tool is actively maintained
+          required: true
+        - label: It is related to lead generation, social listening, enrichment or outreach
+          required: true
+        - label: It is not already in the list
+          required: true
