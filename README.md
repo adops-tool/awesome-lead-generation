@@ -324,7 +324,7 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ![web](image/alg_I.png) [Expandi](https://expandi.io) - Safety-focused cloud LinkedIn automation with multichannel sequences and personalized media.
 
-![web](image/alg_I.png) [HeyReach](https://heyreach.com) - Multi-account LinkedIn outreach management built for agencies, with sender rotation and white-label reports.
+![web](image/alg_I.png) [HeyReach](https://heyreach.io) - Multi-account LinkedIn outreach management built for agencies, with sender rotation and white-label reports.
 
 ![github](image/alg_R.png) [OpenOutreach](https://github.com/eracle/OpenOutreach) - Open-source AI-powered LinkedIn automation tool that finds leads based on a user-defined product description and target market.
 
