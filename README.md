@@ -108,6 +108,7 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ![web](image/alg_I.png) [GrowthList](https://growthlist.co) - Weekly-updated lists of recently funded startups with verified founder contacts.
 
+![web](image/alg_I.png) [MentionFox](https://mentionfox.com/funding/week) - Weekly list of US companies that just filed new SEC Form D raises, with the people each filing names.
 ![web](image/alg_I.png) [PitchBook](https://pitchbook.com) - Private-market data on companies, deals, and funding for prospect research.
 
 ![github](image/alg_R.png) [tech-stack-datasets](https://github.com/leadita/tech-stack-datasets) - Daily-updated open datasets covering 52M+ companies with their technology stacks across 403 technologies, enabling ICP filtering by tech usage.
