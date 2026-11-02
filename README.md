@@ -350,6 +350,8 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ![github](image/alg_R.png) [harvey](https://github.com/ethanplusai/harvey) - Autonomous Python-based sales agent built on Claude Code that scrapes prospects, writes email sequences, deploys via the Instantly API, classifies replies, and auto-responds.
 
+![web](image/alg_I.png) [Leadpoet](https://leadpoet.com) - Finds B2B companies that match an ICP and show a current buying signal, adds decision-maker contacts, and drafts email and LinkedIn outreach that is approved before it sends.
+
 ![github](image/alg_R.png) [sales-outreach-automation-langgraph](https://github.com/kaymen99/sales-outreach-automation-langgraph) - LangGraph-based AI agent pipeline that automates lead research, qualification, and personalized messaging with HubSpot, Airtable, and Google Sheets integrations.
 
 ![web](image/alg_I.png) [SellScale](https://sellscale.com) - AI platform for scaling outbound with automated prospecting and multichannel engagement.
