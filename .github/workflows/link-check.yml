@@ -7,9 +7,6 @@ on:
       - "**.md"
       - ".github/link-check-allowlist.txt"
       - "scripts/check_links.py"
-  schedule:
-    # Every Monday at 04:00 UTC: catch sites that went away since the last run.
-    - cron: "0 4 * * 1"
   workflow_dispatch:
 
 permissions:
