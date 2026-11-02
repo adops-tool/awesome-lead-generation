@@ -79,7 +79,7 @@ class LintTestCase(unittest.TestCase):
 class BaselineTests(unittest.TestCase):
     def test_repository_readme_is_clean(self):
         document, report = lint_readme.lint(ROOT / "README.md")
-        self.assertEqual(len(document.entries), 162)
+        self.assertEqual(len(document.entries), 166)
         self.assertEqual(
             [(issue.code, issue.line, issue.message) for issue in report.issues],
             [],
