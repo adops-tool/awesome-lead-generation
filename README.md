@@ -176,6 +176,8 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ![github](image/alg_R.png) [google-maps-scraper](https://github.com/omkarcloud/google-maps-scraper) - Python tool to extract 50+ data points from Google Maps listings including business emails, phone numbers, and social profiles.
 
+![web](image/alg_I.png) [LeadTrapper](https://useleadtrapper.com/google-maps-scraper/) - Windows app that collects phone numbers, websites and emails from Google Maps listings.
+
 ![web](image/alg_I.png) [SerpApi](https://serpapi.com) - Real-time scraping API for Google and other search engines returning structured JSON results.
 
 ![web](image/alg_I.png) [Serper](https://serper.dev) - Fast, low-cost Google Search API for programmatic SERP data.
