@@ -165,6 +165,10 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ![web](image/alg_I.png) [twtData](https://twtdata.com) - Exports the followers or following of public X (Twitter) accounts, plus tweets, lists and Spaces, to CSV for prospect lists and audience research.
 
+![web](image/alg_I.png) [TKMetrics](https://tkmetrics.com) - Compares public TikTok creators by average views and engagement rate, for influencer outreach lists.
+
+![web](image/alg_I.png) [SnapDataHub](https://snapdatahub.com) - Finds public Snapchat creators by keyword, with subscriber history and Spotlight views.
+
 ![web](image/alg_I.png) [Zyte](https://www.zyte.com) - Scraping APIs and the Scrapy Cloud platform for production-grade web data extraction.
 
 ### Search, Maps, Reviews & Contacts
