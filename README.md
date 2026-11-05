@@ -477,6 +477,6 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 Contributions are welcome\! Please read the [contribution guidelines](CONTRIBUTING.md) first.
 
-Every pull request is checked automatically: entries must follow the list format, stay in alphabetical order, and keep every link alive. Run `make check` before pushing — see [the automated checks](CONTRIBUTING.md#automated-checks) for the exact commands.
+Every pull request is checked automatically: entries must follow the list format and keep every link alive. Run `make check` before pushing — see [the automated checks](CONTRIBUTING.md#automated-checks) for the exact commands.
 
 By participating in this project you agree to abide by our [Code of Conduct](CODE_OF_CONDUCT.md).

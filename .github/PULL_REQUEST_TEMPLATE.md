@@ -18,7 +18,7 @@ Thanks for contributing! Keep the title short and start it with a verb:
       `![web](image/alg_I.png) [Name](https://example.com) - One objective sentence.`
 - [ ] The icon matches the link: `github` + `image/alg_R.png` for a GitHub repository,
       `web` + `image/alg_I.png` for everything else.
-- [ ] The entry sits in the right section and in strict alphabetical order.
+- [ ] The entry sits in the right section.
 - [ ] The link is direct — no affiliate, referral, redirect or `utm_*` parameters.
 - [ ] The description is factual, one sentence, ends with a period, no marketing language.
 - [ ] `make check` passes locally (README lint + local links + tests).

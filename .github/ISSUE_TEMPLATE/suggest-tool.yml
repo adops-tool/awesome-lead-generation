@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Prefer a pull request? Read [CONTRIBUTING.md](../../blob/main/CONTRIBUTING.md)
-        and run `make check` first — it validates the format, ordering and links.
+        and run `make check` first — it validates the format and links.
   - type: input
     id: name
     attributes:
