@@ -91,10 +91,6 @@ class Entry:
     def group(self) -> tuple[Optional[str], Optional[str]]:
         return (self.section, self.subsection)
 
-    @property
-    def sort_key(self) -> str:
-        return normalize_name(self.name)
-
 
 @dataclass
 class Document:
@@ -140,7 +136,7 @@ def unescape_md(text: str) -> str:
 
 
 def normalize_name(name: str) -> str:
-    """Comparison key for alphabetical ordering and duplicate detection."""
+    """Comparison key for case-insensitive duplicate detection."""
 
     return unescape_md(name).strip().casefold()
 

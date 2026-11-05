@@ -143,9 +143,8 @@ class EntryRuleTests(LintTestCase):
         )
         self.assertIn("URL007", codes(report))
 
-    def test_alphabetical_order(self):
-        _, report = self.lint(VALID.replace(f"{ALPHA}\n\n{BETA}", f"{BETA}\n\n{ALPHA}"))
-        self.assertIn("ORDER001", codes(report))
+    def test_entry_order_is_not_enforced(self):
+        self.assert_clean(VALID.replace(f"{ALPHA}\n\n{BETA}", f"{BETA}\n\n{ALPHA}"))
 
     def test_marketing_language_is_flagged(self):
         _, report = self.lint(VALID.replace("Enriches contact records with company data.", "The world's best enrichment tool."))
@@ -199,12 +198,6 @@ class TocRuleTests(LintTestCase):
         self.assertEqual(silent_run([str(path)]), 1)
         self.assertEqual(silent_run([str(path), "--fix"]), 0)
         self.assertNotIn("Ghost", path.read_text(encoding="utf-8"))
-
-    def test_sort_fixes_order(self):
-        path = write_fixture(VALID.replace(f"{ALPHA}\n\n{BETA}", f"{BETA}\n\n{ALPHA}"))
-        self.assertEqual(silent_run([str(path), "--fix", "--sort"]), 0)
-        content = path.read_text(encoding="utf-8")
-        self.assertLess(content.index("[Alpha]"), content.index("[Beta]"))
 
 
 class LinkRuleTests(LintTestCase):

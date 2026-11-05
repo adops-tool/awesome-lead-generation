@@ -13,7 +13,6 @@ Please ensure your submission adheres to the following core criteria:
 - **Relevance:** The tool must have a clear AI component or be an essential part of the modern lead generation stack.
 - **Active Maintenance:** We only accept active projects. Abandoned or unmaintained tools will not be merged.
 - **Direct Links Only:** Absolutely no affiliate, tracking, or referral links are allowed.
-- **Alphabetical Ordering:** Submissions must be placed in strict alphabetical order within their respective categories.
 
 ## Description Standards
 
@@ -39,7 +38,7 @@ To add a new tool to the list, please follow these steps:
    ![web](image/alg_I.png) [Tool Name](https://example.com) - Short, objective description of what it does.
    ```
 
-   Keep entries in strict alphabetical order (case-insensitive) within their subsection and do not include pricing or promotional claims in descriptions.
+   Do not include pricing or promotional claims in descriptions.
 
 5. **Run the checks locally:** See [Automated checks](#automated-checks) below.
 6. **Create a Pull Request:** Submit your PR with a clear and descriptive title using the following format:
@@ -48,8 +47,8 @@ To add a new tool to the list, please follow these steps:
 ## Automated checks
 
 Every pull request runs a set of checkers. They exist so a PR cannot break the
-list silently — a wrong icon, an out-of-order entry, a stale table of contents or
-a dead link fails the build with a message pointing at the exact line.
+list silently — a wrong icon, a stale table of contents or a dead link fails the
+build with a message pointing at the exact line.
 
 Everything is plain Python 3 (standard library only), so you can run the same
 checks locally before pushing:
@@ -58,7 +57,6 @@ checks locally before pushing:
 make check          # README lint + local links + checker self-tests (no network)
 make links          # real HTTP check of every link (needs network)
 make fix            # regenerate the table of contents, clean whitespace
-make sort           # re-sort every section alphabetically
 make pr-title TITLE="Add Clay"   # validate a PR title
 ```
 
@@ -75,7 +73,7 @@ python3 scripts/lint_readme.py --list-rules          # every rule and its severi
 
 | Checker | What it guarantees |
 | --- | --- |
-| `scripts/lint_readme.py` | Entry format, icon/link agreement, alphabetical order, no duplicate tools or URLs, no tracking parameters, description style, table of contents in sync with the headings, no broken anchors, repository files present |
+| `scripts/lint_readme.py` | Entry format, icon/link agreement, no duplicate tools or URLs, no tracking parameters, description style, table of contents in sync with the headings, no broken anchors, repository files present |
 | `scripts/check_links.py` | Every URL answers over HTTP: 404/410 fail the build, bot-protected hosts are reported but do not fail, redirects are listed; local files and heading anchors must exist |
 | `scripts/check_pr_title.py` | The PR title starts with a verb (`Add`, `Update`, `Fix`, `Remove`, `Docs`, `Chore`) |
 
@@ -99,8 +97,7 @@ allowlist to silence a real 404 — only for genuine bot protection.
 
 1. Read the annotation: it names the file, the line and the rule code.
 2. Run `make fix` — the table of contents and whitespace are regenerated for you.
-3. Run `make sort` if the alphabetical order is the problem.
-4. For a dead link, replace it with the tool's current URL (or remove the entry
+3. For a dead link, replace it with the tool's current URL (or remove the entry
    if the product is gone) and mention it in the PR description.
 
 ## Pull Request Review

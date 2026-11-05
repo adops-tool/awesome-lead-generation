@@ -49,7 +49,7 @@ class EntryParsingTests(unittest.TestCase):
         self.assertEqual(entry.url, "https://clay.com")
         self.assertEqual(entry.separator, "-")
         self.assertEqual(entry.description, "Data enrichment spreadsheet.")
-        self.assertEqual(entry.sort_key, "clay")
+        self.assertEqual(md.normalize_name(entry.name), "clay")
         self.assertEqual(entry.group, ("B2B Data & Enrichment", "Contact Databases & Sales Intelligence"))
 
     def test_github_entry(self):

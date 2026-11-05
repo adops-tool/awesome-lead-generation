@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Lint entries, ordering and table of contents
+      - name: Lint entries and table of contents
         run: python3 scripts/lint_readme.py README.md --strict --github-annotations
 
       - name: Check local links, images and anchors

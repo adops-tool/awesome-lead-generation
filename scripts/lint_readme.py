@@ -2,13 +2,13 @@
 """Structure and style linter for the awesome-lead-generation list.
 
 The goal is simple: any pull request that would break the list (wrong icon,
-out-of-order entry, dead Markdown, stale table of contents, tracking links…)
-fails here with an actionable message, before a human has to look at it.
+dead Markdown, stale table of contents, tracking links…) fails here with an
+actionable message, before a human has to look at it.
 
 Usage:
     python3 scripts/lint_readme.py                     # lint README.md
     python3 scripts/lint_readme.py --strict             # warnings fail too
-    python3 scripts/lint_readme.py --fix --sort         # auto-fix + sort
+    python3 scripts/lint_readme.py --fix                # auto-fix TOC & whitespace
     python3 scripts/lint_readme.py --list-rules         # show every rule
 
 Exit codes: 0 = clean, 1 = errors (or warnings in --strict), 2 = usage error.
@@ -79,8 +79,6 @@ RULES: dict[str, Rule] = {
         _rule("DESC005", WARNING, "Description is shorter than 25 characters."),
         _rule("DESC006", WARNING, "Description duplicates another entry."),
         _rule("DESC007", WARNING, "Avoid exclamation marks and emoji in descriptions."),
-        # ordering
-        _rule("ORDER001", ERROR, "Entries must be in strict alphabetical order."),
         # table of contents
         _rule("TOC001", ERROR, "Missing '## Contents' section."),
         _rule("TOC002", ERROR, "TOC links to a heading that does not exist."),
@@ -330,23 +328,6 @@ def check_entries(document: md.Document, report: Report) -> None:
             )
         else:
             seen_descriptions[description_key] = entry
-
-
-def check_ordering(document: md.Document, report: Report) -> None:
-    groups: dict[tuple[Optional[str], Optional[str]], list[md.Entry]] = {}
-    for entry in document.entries:
-        groups.setdefault(entry.group, []).append(entry)
-
-    for entries in groups.values():
-        keys = [entry.sort_key for entry in entries]
-        for current, following in zip(entries, entries[1:]):
-            if current.sort_key > following.sort_key:
-                report.add(
-                    "ORDER001",
-                    following.line,
-                    f"`{following.name}` should come before `{current.name}` "
-                    f"(line {current.line}); sections are alphabetical, case-insensitive",
-                )
 
 
 # --------------------------------------------------------------------------- #
@@ -651,30 +632,8 @@ def fix_toc(document: md.Document) -> list[str]:
     return ["regenerated the table of contents"]
 
 
-def sort_entries(document: md.Document) -> list[str]:
-    groups: dict[tuple[Optional[str], Optional[str]], list[md.Entry]] = {}
-    for entry in document.entries:
-        groups.setdefault(entry.group, []).append(entry)
-
-    changed_groups = 0
-    for entries in groups.values():
-        indices = [entry.line - 1 for entry in entries]
-        texts = [document.lines[index] for index in indices]
-        ordering = sorted(range(len(texts)), key=lambda position: entries[position].sort_key)
-        sorted_texts = [texts[position] for position in ordering]
-        if sorted_texts != texts:
-            changed_groups += 1
-            for index, text in zip(indices, sorted_texts):
-                document.lines[index] = text
-
-    if not changed_groups:
-        return []
-    return [f"re-sorted entries in {changed_groups} section(s)"]
-
-
-def apply_fixes(document: md.Document, do_sort: bool) -> list[str]:
+def apply_fixes(document: md.Document) -> list[str]:
     changes: list[str] = []
-    changes.extend(sort_entries(document) if do_sort else [])
     changes.extend(fix_toc(document))
     changes.extend(fix_whitespace(document))
     document.text = "\n".join(document.lines) + "\n"
@@ -691,7 +650,6 @@ def lint(path: Path) -> tuple[md.Document, Report]:
     report = Report(path)
     check_repository(document, report)
     check_entries(document, report)
-    check_ordering(document, report)
     check_toc(document, report)
     check_headings(document, report)
     check_local_links(document, report)
@@ -727,14 +685,13 @@ def format_summary(report: Report, entries: int, headings: int) -> str:
 
 def run(argv: Optional[Iterable[str]] = None) -> int:
     parser = argparse.ArgumentParser(
-        description="Lint the structure, ordering and style of the awesome list.",
+        description="Lint the structure and style of the awesome list.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=__doc__,
     )
     parser.add_argument("path", nargs="?", default="README.md", help="Markdown file to lint")
     parser.add_argument("--strict", action="store_true", help="treat warnings as failures")
     parser.add_argument("--fix", action="store_true", help="rewrite the TOC and clean whitespace")
-    parser.add_argument("--sort", action="store_true", help="alphabetically sort entries (implies --fix)")
     parser.add_argument(
         "--github-annotations",
         action="store_true",
@@ -757,8 +714,8 @@ def run(argv: Optional[Iterable[str]] = None) -> int:
 
     document, report = lint(path)
 
-    if args.fix or args.sort:
-        changes = apply_fixes(document, do_sort=args.sort)
+    if args.fix:
+        changes = apply_fixes(document)
         if changes:
             path.write_text(document.text, encoding="utf-8")
             for change in changes:
