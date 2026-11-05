@@ -169,6 +169,8 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ![web](image/alg_I.png) [SnapDataHub](https://snapdatahub.com) - Finds public Snapchat creators by keyword, with subscriber history and Spotlight views.
 
+![web](image/alg_I.png) [IGDataHub](https://igdatahub.com) - Looks up public Instagram accounts, with engagement rate, top posts and comparison on report pages, for influencer outreach lists.
+
 ![web](image/alg_I.png) [Zyte](https://www.zyte.com) - Scraping APIs and the Scrapy Cloud platform for production-grade web data extraction.
 
 ### Search, Maps, Reviews & Contacts
