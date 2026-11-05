@@ -237,6 +237,8 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ![github](image/alg_R.png) [MailChecker](https://github.com/FGRibreau/mailchecker) - Cross-language library for detecting disposable and throwaway email addresses, covering 55,000+ fake providers.
 
+![web](image/alg_I.png) [MailVeri](https://mailveri.com) - Real-time and bulk email verification API with catch-all, role and disposable detection, plus an open-source MCP server for AI agents.
+
 ![web](image/alg_I.png) [MillionVerifier](https://millionverifier.com) - Bulk email list verification API with accuracy scoring to clean lead lists.
 
 ![web](image/alg_I.png) [NeverBounce](https://neverbounce.com) - Bulk and real-time email verification that protects sender reputation.
