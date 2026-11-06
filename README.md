@@ -157,6 +157,8 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ![web](image/alg_I.png) [looot](https://looot.ai) - Data API and remote MCP server with one key and ~2,500 endpoints: work email, phone, company enrichment, Google SERP, and web page reading.
 
+![web](image/alg_I.png) [Datacircle](https://datacircle.dev) - Find the best GTM APIs. We benchmark all the GTM APIs and we put the results on our website.
+
 ![github](image/alg_R.png) [maxun](https://github.com/getmaxun/maxun) - Open-source no-code platform that converts websites into structured data APIs using a recorder mode or plain-language descriptions, with scheduling and Google Sheets export.
 
 ![web](image/alg_I.png) [Oxylabs](https://oxylabs.io) - Web scraping APIs (SERP, e-commerce, universal) and proxy infrastructure for large-scale data collection.
