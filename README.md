@@ -110,7 +110,6 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 ![web](image/alg_I.png) [ATS Hiring Signals](https://apify.com/goldenrod_serrano/ats-hiring-signals) - Apify Actor (by me) that scrapes Greenhouse, Lever, Ashby, Workable, SmartRecruiters and Recruitee boards into normalized jobs plus a hiring-signal score per company.
 ![web](image/alg_I.png) [Workday Hiring Signals](https://apify.com/goldenrod_serrano/workday-hiring-signals) - Apify Actor (by me) that scrapes public Workday career sites with country filters into normalized jobs plus hiring-signal scores.
 
-
 <img src="image/line-svg-3D444D-alg.svg" /> <!-- -SVG-Line- -->
 
 ## Web Scraping & Data Extraction
