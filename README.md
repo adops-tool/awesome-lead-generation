@@ -68,6 +68,8 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ![web](image/alg_I.png) [OpenSparta](https://opensparta.com/en) - Telegram marketing workspace with an AI-powered Lead Radar that monitors communities for buying requests and ranks matches with original-message evidence.
 
+![web](image/alg_I.png) [ReddRadar](https://reddradar.com) - Monitors subreddits for high-intent threads, scores how well each fits your product, and drafts replies for approval.
+
 ![github](image/alg_R.png) [Scweet](https://github.com/Altimis/Scweet) - Python library for scraping tweets, profiles, followers, and following lists from Twitter/X without an API key.
 
 ![web](image/alg_I.png) [Syften](https://syften.com) - Keyword monitoring across Slack communities, Discourse forums, Reddit, and other platforms in real time.
