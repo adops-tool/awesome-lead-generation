@@ -100,18 +100,15 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ### Funding, Hiring & Technographic Signals
 
+![web](image/alg_I.png) [ATS Hiring Signals](https://apify.com/goldenrod_serrano/ats-hiring-signals) - Apify Actor (by me) that scrapes Greenhouse, Lever, Ashby, Workable, SmartRecruiters and Recruitee boards into normalized jobs plus a hiring-signal score per company.
 ![web](image/alg_I.png) [BuiltWith](https://builtwith.com) - Technology profiler showing which tech stack a website runs — filter lead lists by technology.
-
 ![web](image/alg_I.png) [Crunchbase](https://www.crunchbase.com) - Database of companies, funding rounds, and investors; new funding events are buying signals.
-
 ![web](image/alg_I.png) [Datanyze](https://www.datanyze.com) - Technographic data on which technologies companies use, for ICP filtering.
-
 ![web](image/alg_I.png) [GrowthList](https://growthlist.co) - Weekly-updated lists of recently funded startups with verified founder contacts.
-
 ![web](image/alg_I.png) [MentionFox](https://mentionfox.com/funding/week) - Weekly list of US companies that just filed new SEC Form D raises, with the people each filing names.
 ![web](image/alg_I.png) [PitchBook](https://pitchbook.com) - Private-market data on companies, deals, and funding for prospect research.
-
 ![github](image/alg_R.png) [tech-stack-datasets](https://github.com/leadita/tech-stack-datasets) - Daily-updated open datasets covering 52M+ companies with their technology stacks across 403 technologies, enabling ICP filtering by tech usage.
+![web](image/alg_I.png) [Workday Hiring Signals](https://apify.com/goldenrod_serrano/workday-hiring-signals) - Apify Actor (by me) that scrapes public Workday career sites with country filters into normalized jobs plus hiring-signal scores.
 
 <img src="image/line-svg-3D444D-alg.svg" /> <!-- -SVG-Line- -->
 
