@@ -116,6 +116,8 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ![web](image/alg_I.png) [PitchBook](https://pitchbook.com) - Private-market data on companies, deals, and funding for prospect research.
 
+![web](image/alg_I.png) [Sell to State](https://www.selltostate.com) - Government tenders and contract awards from 73 countries as buying signals, with public buyers, winning suppliers, an API and an MCP server.
+
 ![github](image/alg_R.png) [tech-stack-datasets](https://github.com/leadita/tech-stack-datasets) - Daily-updated open datasets covering 52M+ companies with their technology stacks across 403 technologies, enabling ICP filtering by tech usage.
 
 ![web](image/alg_I.png) [Workday Hiring Signals](https://apify.com/goldenrod_serrano/workday-hiring-signals) - Apify Actor (by me) that scrapes public Workday career sites with country filters into normalized jobs plus hiring-signal scores.
