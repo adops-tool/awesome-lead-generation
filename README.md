@@ -352,6 +352,8 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ![web](image/alg_I.png) [HeyReach](https://heyreach.io) - Multi-account LinkedIn outreach management built for agencies, with sender rotation and white-label reports.
 
+![web](image/alg_I.png) [Linkedcamp](https://www.linkedcamp.com) - LinkedIn and email outreach automation for lead generation agencies, with a hosted MCP server for AI assistants.
+
 ![github](image/alg_R.png) [OpenOutreach](https://github.com/eracle/OpenOutreach) - Open-source AI-powered LinkedIn automation tool that finds leads based on a user-defined product description and target market.
 
 ![web](image/alg_I.png) [We-Connect](https://we-connect.io) - Cloud LinkedIn automation optimized for steady, low-risk connection and messaging campaigns.
