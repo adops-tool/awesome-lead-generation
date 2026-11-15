@@ -254,6 +254,8 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ![web](image/alg_I.png) [FindMeMail](https://findmemail.io) - Plain-English search across 32k+ companies for verified founder and decision-maker emails.
 
+![web](image/alg_I.png) [Founder Email Finder](https://apify.com/intropi/company-contacts-tech-lookup) - Apify actor that reads company websites and returns founder or owner names, a founder email labelled by confidence, shared inboxes, phones, and tech stack.
+
 ![web](image/alg_I.png) [Hunter](https://hunter.io) - Domain search and email finder/verifier with confidence scores and bulk tasks.
 
 ![github](image/alg_R.png) [MailChecker](https://github.com/FGRibreau/mailchecker) - Cross-language library for detecting disposable and throwaway email addresses, covering 55,000+ fake providers.
