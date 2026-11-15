@@ -198,6 +198,8 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ![web](image/alg_I.png) [LeadTrapper](https://useleadtrapper.com/google-maps-scraper/) - Windows app that collects phone numbers, websites and emails from Google Maps listings.
 
+![web](image/alg_I.png) [Seeably](https://seeably.ai) - Scans a niche and city across ChatGPT, Gemini, Claude, Perplexity and Google AI Mode and lists the local businesses they don't name, with contact details and CSV export.
+
 ![web](image/alg_I.png) [SerpApi](https://serpapi.com) - Real-time scraping API for Google and other search engines returning structured JSON results.
 
 ![web](image/alg_I.png) [Serper](https://serper.dev) - Fast, low-cost Google Search API for programmatic SERP data.
