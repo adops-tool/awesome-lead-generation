@@ -228,6 +228,8 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ![web](image/alg_I.png) [LeadIQ](https://leadiq.com) - LinkedIn prospecting with one-click lead capture, champion and job-change tracking, and CRM sync.
 
+![web](image/alg_I.png) [Leadsets](https://www.leadsets.ai) - Unlimited B2B Contact Data API and remote MCP server for AI agents: people and company search, enrichment, email verification, and job and website scraping.
+
 ![web](image/alg_I.png) [LinkedIn Sales Navigator](https://www.linkedin.com/sales) - LinkedIn's official prospecting tool with advanced search filters, lead lists, and InMail.
 
 ![web](image/alg_I.png) [Lusha](https://lusha.com) - Contact and company data with direct dials and a Chrome extension for on-profile enrichment.
