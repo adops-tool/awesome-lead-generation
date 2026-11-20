@@ -62,6 +62,8 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ![web](image/alg_I.png) [GummySearch](https://gummysearch.com) - Audience research tool for Reddit that surfaces communities and high-intent conversations around a topic.
 
+![web](image/alg_I.png) [Hearl](https://hearl.org) - Collects posts about your product from X, Reddit, and Hacker News, filters the noise with AI, and gives each one an owner, a deadline, and an outcome, with a free plan.
+
 ![web](image/alg_I.png) [Leado](https://leado.co) - Monitors subreddits for high-intent leads and drafts personalized replies automatically.
 
 ![web](image/alg_I.png) [Mention](https://mention.com) - Real-time media monitoring across social networks, news sites, blogs, and forums.
