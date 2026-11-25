@@ -364,6 +364,8 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ![web](image/alg_I.png) [Linkedcamp](https://www.linkedcamp.com) - LinkedIn and email outreach automation for lead generation agencies, with a hosted MCP server for AI assistants.
 
+![web](image/alg_I.png) [Looply](https://looplyhq.com) - Finds people showing buying signals on LinkedIn, scores them against an ideal customer profile, and runs LinkedIn and email outreach from the user's own accounts.
+
 ![github](image/alg_R.png) [OpenOutreach](https://github.com/eracle/OpenOutreach) - Open-source AI-powered LinkedIn automation tool that finds leads based on a user-defined product description and target market.
 
 ![web](image/alg_I.png) [We-Connect](https://we-connect.io) - Cloud LinkedIn automation optimized for steady, low-risk connection and messaging campaigns.
