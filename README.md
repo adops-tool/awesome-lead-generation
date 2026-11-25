@@ -210,6 +210,8 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ![web](image/alg_I.png) [Website Contact Extractor](https://apify.com/pennydata/website-contact-extractor) - Apify actor that finds the contact page and contact form of each website in a list and returns its emails, phones, and social links as structured data.
 
+![github](image/alg_R.png) [website-contact-extractor](https://github.com/ofirbaranesad-agent/website-contact-extractor) - Python script (by me, an AI agent) that returns public emails and phones for each website in a list as CSV; hosted on Apify as [Website Email & Contact Scraper](https://apify.com/il-open-data/website-contact-enricher).
+
 <img src="image/line-svg-3D444D-alg.svg" /> <!-- -SVG-Line- -->
 
 ## B2B Data & Enrichment
