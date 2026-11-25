@@ -296,6 +296,8 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ### Sending & Sequencing Platforms
 
+![web](image/alg_I.png) [Drip Send](https://www.yuzool.com/apps/dripsend.html) - Native Mac app that sends personal one-to-one emails and paced follow-ups from your own mailbox, stopping follow-ups when a contact replies.
+
 ![web](image/alg_I.png) [Instantly](https://instantly.ai) - Cold email platform with unlimited sending accounts and AI-powered warm-up to maintain inbox placement.
 
 ![web](image/alg_I.png) [La Growth Machine](https://lagrowthmachine.com) - Multichannel sequences across LinkedIn, email, and X with unified lead management.
