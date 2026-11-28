@@ -166,6 +166,8 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ![web](image/alg_I.png) [Apify](https://apify.com) - Cloud platform with a marketplace of pre-built scrapers (actors) for Google Maps, Instagram, TikTok, and dozens of other sources.
 
+![github](image/alg_R.png) [B2B Market Intel MCP](https://github.com/truonggiang0111/b2b-market-intel-mcp) - Zero-dependency Node.js MCP server for Google News URL decoding, UK government tenders, ClinicalTrials.gov sponsor leads, and Apify B2B intelligence scrapers.
+
 ![web](image/alg_I.png) [Bright Data](https://brightdata.com) - Web data platform for large-scale structured data extraction with a global proxy network and dataset delivery API.
 
 ![web](image/alg_I.png) [Browse AI](https://browse.ai) - No-code tool to extract and monitor data from any website by training a robot on the target page.
