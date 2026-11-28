@@ -112,6 +112,8 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ![web](image/alg_I.png) [Datanyze](https://www.datanyze.com) - Technographic data on which technologies companies use, for ICP filtering.
 
+![web](image/alg_I.png) [Google Jobs Scraper](https://apify.com/johnvc/google-jobs-scraper) - Apify actor that scrapes Google Jobs results by title, location, country and language and returns each job's employer, description, posting age and apply links as JSON.
+
 ![web](image/alg_I.png) [GrowthList](https://growthlist.co) - Weekly-updated lists of recently funded startups with verified founder contacts.
 
 ![web](image/alg_I.png) [MentionFox](https://mentionfox.com/funding/week) - Weekly list of US companies that just filed new SEC Form D raises, with the people each filing names.
