@@ -84,6 +84,8 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 
 ### Web & Site Change Monitoring
 
+![web](image/alg_I.png) [Google Ads Transparency Scraper](https://apify.com/publicrecords/google-ads-transparency-scraper) - Google ads a competitor runs, from the Ads Transparency Center, with first and last shown dates (Apify Actor, API + MCP).
+
 ![github](image/alg_R.png) [changedetection.io](https://github.com/dgtlmoon/changedetection.io) - Self-hosted website change-monitoring tool that fires alerts via Slack, Discord, email, and 80+ other channels — useful for tracking competitor pricing, job postings, and other intent pages.
 
 ![web](image/alg_I.png) [Distill Web Monitor](https://distill.io) - Browser-based page monitoring with email, SMS, and push alerts when selected content changes.
@@ -103,6 +105,14 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 ![web](image/alg_I.png) [Leadfeeder](https://www.leadfeeder.com) - Website visitor identification showing which companies browse your site and which pages they view.
 
 ### Funding, Hiring & Technographic Signals
+
+![web](image/alg_I.png) [Ashby Jobs Scraper](https://apify.com/publicrecords/ashby-jobs-scraper) - New job postings from any Ashby job board since a date or window (24h, 7d, 30d) (Apify Actor, API + MCP).
+
+![web](image/alg_I.png) [Greenhouse Jobs Scraper](https://apify.com/publicrecords/greenhouse-jobs-scraper) - New job postings from any Greenhouse job board since a date or window (Apify Actor, API + MCP).
+
+![web](image/alg_I.png) [Lever Jobs Scraper](https://apify.com/publicrecords/lever-jobs-scraper) - New job postings from any Lever job board since a date or window (Apify Actor, API + MCP).
+
+![web](image/alg_I.png) [SmartRecruiters Jobs Scraper](https://apify.com/publicrecords/smartrecruiters-jobs-scraper) - New job postings from any SmartRecruiters careers site since a date or window (Apify Actor, API + MCP).
 
 ![web](image/alg_I.png) [ATS Hiring Signals](https://apify.com/goldenrod_serrano/ats-hiring-signals) - Apify Actor (by me) that scrapes Greenhouse, Lever, Ashby, Workable, SmartRecruiters and Recruitee boards into normalized jobs plus a hiring-signal score per company.
 
@@ -195,6 +205,8 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 ![web](image/alg_I.png) [Zyte](https://www.zyte.com) - Scraping APIs and the Scrapy Cloud platform for production-grade web data extraction.
 
 ### Search, Maps, Reviews & Contacts
+
+![web](image/alg_I.png) [Company Social Profile Finder](https://apify.com/publicrecords/company-social-profile-finder) - Company domain or name to its LinkedIn, X, YouTube, Instagram and Facebook links, with confidence scores (Apify Actor, API + MCP).
 
 ![github](image/alg_R.png) [business-leads-ai-automation](https://github.com/asiifdev/business-leads-ai-automation) - Open-source Google Maps scraper paired with AI-generated email and WhatsApp outreach templates for SME prospecting.
 
@@ -513,16 +525,6 @@ The sections below follow the lead-generation pipeline: **find signals → colle
 ![web](image/alg_I.png) [Unbounce](https://unbounce.com) - Landing page builder with conversion optimization and A/B testing.
 
 <img src="image/line-svg-3D444D-alg.svg" /> <!-- -SVG-Line- -->
-
-
-## Public Data APIs (Apify)
-
-- [Company Social Profile Finder](https://apify.com/publicrecords/company-social-profile-finder) - Company domain or name to its LinkedIn, X, YouTube, Instagram and Facebook links, with confidence scores (Apify Actor, API + MCP).
-- [Google Ads Transparency Scraper](https://apify.com/publicrecords/google-ads-transparency-scraper) - Google ads a competitor runs, from the Ads Transparency Center, with first and last shown dates (Apify Actor, API + MCP).
-- [Ashby Jobs Scraper](https://apify.com/publicrecords/ashby-jobs-scraper) - New job postings from any Ashby job board since a date or window (24h, 7d, 30d) (Apify Actor, API + MCP).
-- [Greenhouse Jobs Scraper](https://apify.com/publicrecords/greenhouse-jobs-scraper) - New job postings from any Greenhouse job board since a date or window (Apify Actor, API + MCP).
-- [Lever Jobs Scraper](https://apify.com/publicrecords/lever-jobs-scraper) - New job postings from any Lever job board since a date or window (Apify Actor, API + MCP).
-- [SmartRecruiters Jobs Scraper](https://apify.com/publicrecords/smartrecruiters-jobs-scraper) - New job postings from any SmartRecruiters careers site since a date or window (Apify Actor, API + MCP).
 
 ## Contributing
 
